@@ -1,0 +1,16 @@
+from biblioteca import Biblioteca, Livro, Revista
+
+b1 = Biblioteca("Dom Casmurro", "Machado de Assis", 1899, 400)
+l1 = Livro("O Senhor dos Anéis: A Sociedade do Anel", "J.R.R. Tolkien", 1954, 576)
+r1 = Revista("Revista Veja", "Veja", 1997, 90)
+
+b1.detalhes()
+b1.calcularIdadeItem()
+
+l1.detalhes()
+l1.calcularIdadeItem()
+l1.verificarTamanho()
+
+r1.detalhes()
+r1.calcularIdadeItem()
+r1.verificarEdicao()
